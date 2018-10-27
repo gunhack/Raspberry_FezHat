@@ -183,4 +183,4 @@ deberías poder ver los dispoitivos SPI
 
 Una vez concuidos todos los pasos anteriores puedes probar las librerías que hice para cada uno de los módulos que tiene la Red Hat.
 
-1) [Leds RGB]
+1) [Leds RGB](https://github.com/gunhack/Raspberry_FezHat/tree/master/LEDS_RGB)
