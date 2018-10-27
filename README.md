@@ -1,7 +1,7 @@
 # Raspberry & Fez Hat
 
 <div style="text-align:center">
-    <img src="https://www.raspberrypi.org/app/uploads/2018/03/RPi-Logo-Reg-SCREEN.png" alt="Rapsberry logo" style="width:100px;"/>
+    <img src="https://www.raspberrypi.org/app/uploads/2018/03/RPi-Logo-Reg-SCREEN.png" alt="Rapsberry logo"  height="100"/>
 </div>
 
 
