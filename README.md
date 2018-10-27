@@ -1,8 +1,8 @@
 # Raspberry & Fez Hat
 
-<div style="text-align:center">
+<p align="center">
     <img src="https://www.raspberrypi.org/app/uploads/2018/03/RPi-Logo-Reg-SCREEN.png" alt="Rapsberry logo"  height="100"/>
-</div>
+</p>
 
 
 ## Introducción
@@ -33,9 +33,9 @@ La placa es excelente para quienes empiezan en el mundo de la programacíon de l
 
 Con la Fez HAt tienes todo lo que neccesitas para construir pequeños robots o gadgets en la Raspberry Pi. Esta Shield ya incluye drivers para servomotores y motoreductores y tambien te da la posibilidad de añadir otros módulos de tu preferencia para mejorar tu creación.
 
-<div style="text-align:center">
+<p align="center">
     <img id="bigpic" itemprop="image" src="https://static.generation-robots.com/5908-large_default/fez-hat.jpg" title="FEZ HAT" alt="FEZ HAT" height="200">
-</div>
+</p>
 
 
 ### 1.1 Especificaciones
@@ -54,9 +54,9 @@ Con la Fez HAt tienes todo lo que neccesitas para construir pequeños robots o g
 * Pines hembra con SPI, I2C, 3 análogos, 3 PWM
 * Entrada de energía dedicada para los servo y motoreductores
 
-<div style="text-align:center">
+<p align="center">
     <a class="catalogue" title="FEZ HAT by Gadgeteer - technical schematic" href="https://www.generationrobots.com/media/FEZ_HAT_SCHEMA.pdf" target="_blank"><img src="http://static.generation-robots.com/img/cms/fez-hat-schema.jpg" alt="FEZ HAT by Gadgeteer - technical schematic" width="480"></a>
-</div>
+</p>
 
 ---
 
