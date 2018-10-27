@@ -10,7 +10,7 @@ class LEDS_RGB_FH:
 
     def setColor(self, led, color):
         
-        for i in range(len(self.__LEDS_GPIO[led])):
+        for i in range(3):
             self.__pwm.set_pwm(self.__LEDS_GPIO[led][i], 0, color[i])
 
     def off(self, led):
