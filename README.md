@@ -67,7 +67,7 @@ Con la Fez HAt tienes todo lo que neccesitas para construir pequeños robots o g
 
 Es necesario tener la última versión de [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) en la Rapsberry
 
-<p style="text-align:center">
+<p align="center">
     <a href="http://www.youtube.com/watch?feature=Zo9vAStziwE&v=Zo9vAStziwE" target="_blank"><img src="http://img.youtube.com/vi/Zo9vAStziwE/0.jpg" alt="Cómo instalar Raspbian"/></a>
 </p>
 
@@ -183,5 +183,4 @@ deberías poder ver los dispoitivos SPI
 
 Una vez concuidos todos los pasos anteriores puedes probar las librerías que hice para cada uno de los módulos que tiene la Red Hat.
 
-
-
+1) [Leds RGB]
