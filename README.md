@@ -88,7 +88,7 @@ Cuando termine tendrás que instalar Git si aun no lo tienes.
 
 Tambíen hay que comprobar que tenemos intaladas las librerias Rpi.GPIO para eso utilizamos el comando:
 
-    sudo apt-get install python-rpi.gpio
+    sudo apt-get install python-rpi.gpio python3-rpi.gpio
 
 
 ### 2.3 Adafruit Pi Code
