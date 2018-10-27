@@ -156,7 +156,7 @@ Prueba el siguiente comando para ver todos los dispositivos conectados (Conecta 
 
 ---
 
-### 2.5 Configuring SPI (Opcional)
+### 2.5 Configurando SPI (Opcional)
 
 De nuevo ejecutamos el comando:
 
