@@ -7,7 +7,7 @@
 
 ## Introducción
 
-Éste repositorio fue creado para la instalacón y uso de la placa [Fez Hat](https://www.generationrobots.com/en/402284-fez-hat.html) la cual viene ensamblada y pre-programada para el fácil uso de sus componentes.
+Éste repositorio fue creado para la instalación y uso de la placa [Fez Hat](https://www.generationrobots.com/en/402284-fez-hat.html) la cual viene ensamblada y pre-programada para el fácil uso de sus componentes.
 
 La placa es excelente para quienes empiezan en el mundo de la programacíon de la Raspberry.
 
@@ -15,23 +15,23 @@ La placa es excelente para quienes empiezan en el mundo de la programacíon de l
 
 ## Contenido
 
-1) [Fez Hat]()
-    * 1.1 [Especificaciones]()
-2) [Instalación]()
-    * 2.1 [Raspbian]()
-    * 2.2 [Antes de instalar las librerías]()
-    * 2.3 [Adafruit Pi Code]()
-    * 2.4 [Configurando I2C]()
-        * 2.4.1 [Configurando el soporte del kernel para I2C]()
-        * 2.4.2 [2.6 Probando el I2C]()
-    * 2.5 [Configuring SPI (Opcional)]()
-        * 2.5.1 [Probando el SPI]()
-3) [Lista de Sensores]()
+1) [Fez Hat](https://github.com/gunhack/RaspberryFezHat#1-fez-hat)
+    * 1.1 [Especificaciones](https://github.com/gunhack/RaspberryFezHat#11-especificaciones)
+2) [Instalación](https://github.com/gunhack/RaspberryFezHat#2-instalaci%C3%B3n)
+    * 2.1 [Raspbian](https://github.com/gunhack/RaspberryFezHat#21-raspbian)
+    * 2.2 [Antes de instalar las librerías](https://github.com/gunhack/RaspberryFezHat#22-antes-de-instalar-las-librer%C3%ADas)
+    * 2.3 [Adafruit Pi Code](https://github.com/gunhack/RaspberryFezHat#23-adafruit-pi-code)
+    * 2.4 [Configurando I2C](https://github.com/gunhack/RaspberryFezHat#24-configurando-i2c)
+        * 2.4.1 [Configurando el soporte del kernel para I2C](https://github.com/gunhack/RaspberryFezHat#241-configurando-el-soporte-del-kernel)
+        * 2.4.2 [2.6 Probando el I2C](https://github.com/gunhack/RaspberryFezHat#242-probando-el-i2c)
+    * 2.5 [Configuring SPI (Opcional)](https://github.com/gunhack/RaspberryFezHat#25-configuring-spi-opcional)
+        * 2.5.1 [Probando el SPI](https://github.com/gunhack/RaspberryFezHat#251-probando-el-spi)
+3) [Lista de Sensores](https://github.com/gunhack/RaspberryFezHat#3-lista-de-sensores)
 
 ---
 ## 1. Fez Hat
 
-Con la Fez HAt tienes todo lo que neccesitas para construir pequeños robots o gadgets en la Raspberry Pi. Esta Shield ya incluye drivers para servomotores y motoreductores y tambien te da la posibilidad de añadir otros módulos de tu preferencia para mejorar tu creación.
+Con la Fez HAt tienes todo lo que neccesitas para construir pequeños robots o gadgets en la Raspberry Pi. Ésta shield ya tiene terminales para servomotores y motoreductores y tambien te da la posibilidad de añadir otros módulos de tu preferencia para mejorar tu creación.
 
 <p align="center">
     <img id="bigpic" itemprop="image" src="https://static.generation-robots.com/5908-large_default/fez-hat.jpg" title="FEZ HAT" alt="FEZ HAT" height="200">
@@ -50,7 +50,7 @@ Con la Fez HAt tienes todo lo que neccesitas para construir pequeños robots o g
 * 1 Acelerómetro
 * 1 Sensor de Luz
 * 2 Botones
-* 1 Terminal block con 2 conectores análogos, 2 conectores digitales de I/O, 2 conectores PWM y 1 conector de corrriente
+* 1 Terminal con 2 conectores análogos, 2 conectores digitales de I/O, 2 conectores PWM y 1 conector de corrriente
 * Pines hembra con SPI, I2C, 3 análogos, 3 PWM
 * Entrada de energía dedicada para los servo y motoreductores
 
@@ -67,13 +67,13 @@ Con la Fez HAt tienes todo lo que neccesitas para construir pequeños robots o g
 
 Es necesario tener la última versión de [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) en la Rapsberry
 
-<div style="text-align:center">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Zo9vAStziwE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div>
+<p style="text-align:center">
+    <a href="http://www.youtube.com/watch?feature=Zo9vAStziwE&v=Zo9vAStziwE" target="_blank"><img src="http://img.youtube.com/vi/Zo9vAStziwE/0.jpg" alt="Cómo instalar Raspbian"/></a>
+</p>
 
 ### 2.2 Antes de instalar las librerías
 
-Una vez teniendo funcional Raspbian es necesario descargar algunas librerías.
+Una vez teniendo instalado Raspbian es necesario descargar algunas librerías.
 
 Antes de instalar algo, usa el siguiente comando para asegurar que tu distibución esté en su versión actualizada. No importa el directorio donde estés.
 
@@ -81,7 +81,8 @@ Antes de instalar algo, usa el siguiente comando para asegurar que tu distibuci�
     sudo apt-get upgrade
     sudo apt-get dist-upgrade
 
-Este proceso podría tardar, especialmente si es la primera vez que lo haces. Cuando termine tendrás que instalar Git si aun no lo tienes.
+Este proceso podría tardar, especialmente si es la primera vez que lo haces.
+Cuando termine tendrás que instalar Git si aun no lo tienes.
 
     sudo apt-get install git
 
@@ -104,7 +105,7 @@ Para instalarla hay que usar los siguientes comandos:
 
 Y la segunda es [Adafruit Python PCA9685](https://github.com/adafruit/Adafruit_Python_PCA9685)
 
-Los comados para instalarla (Similares a la primera):
+Los comados para instalarla (similares a la primera):
 
     git clone https://github.com/adafruit/Adafruit_Python_PCA9685.git
     cd Adafruit_Python_PCA9685
@@ -139,7 +140,7 @@ Ejecuta el siguiente comando y sigue las capturas para instalar el soporte de I2
 
 * Después **I2C**
 
-* Activalo
+* Cuado pregunte que si lo queremos habilitar, seleccionamos **YES**
 
 * Una vez que esté listo, reinicia.
 
