@@ -169,6 +169,10 @@ Prueba el siguiente comando para ver todos los dispositivos conectados (Conecta 
 
     sudo i2cdetect -y 1
 
+<p align="center">
+    <img src="https://github.com/gunhack/Raspberry_FezHat/blob/master/img/general/testI2C.PNG?raw=true" alt="Test I2C" width="600"/>
+</p>
+
 ---
 
 ### 2.5 Configurando SPI (Opcional)
@@ -179,9 +183,27 @@ De nuevo ejecutamos el comando:
 
 * Seleccionamos **Interfacing Options**
 
+<p align="center">
+   <img src="https://github.com/gunhack/Raspberry_FezHat/blob/master/img/general/I2C_1.PNG?raw=true" alt="Configurar SPI" width="600"/>
+</p>
+
 * Sleccionamos **SPI**
 
+<p align="center">
+   <img src="https://github.com/gunhack/Raspberry_FezHat/blob/master/img/general/SPI_1.PNG?raw=true" alt="Configurar SPI" width="600"/>
+</p>
+
 * Cuado pregunte que si lo queremos habilitar, seleccionamos **YES**
+
+<p align="center">
+   <img src="https://github.com/gunhack/Raspberry_FezHat/blob/master/img/general/SPI_2.PNG?raw=true" alt="Configurar SPI" width="600"/>
+</p>
+
+* Aparecerá la ventana de confirmación
+
+<p align="center">
+   <img src="https://github.com/gunhack/Raspberry_FezHat/blob/master/img/general/testSPI.PNG?raw=true" alt="Configurar SPI" width="600"/>
+</p>
 
 * Reiniciamos
 
@@ -192,6 +214,10 @@ Ejecutando el siguiente comando:
     ls -l /dev/spidev*
 
 deberías poder ver los dispoitivos SPI
+
+<p align="center">
+   <img src="https://github.com/gunhack/Raspberry_FezHat/blob/master/img/general/TestSPI.PNG?raw=true" alt="Test SPI" width="600"/>
+</p>
 
 ---
 ## 3. Lista de Sensores
