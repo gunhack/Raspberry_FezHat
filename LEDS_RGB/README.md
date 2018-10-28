@@ -2,7 +2,9 @@
 
 Como podemos ver en la imagen, cada LED RGB de la Red Hat está conectado a tres salidas PWM, una para cada color.
 
-![Diagrama Led RGB - Red Hat](https://github.com/gunhack/Raspberry_FezHat/img/LED_RGB/LED_RGB_1.PNG)
+<p align="center">
+    <img src="https://github.com/gunhack/Raspberry_FezHat/blob/master/img/LED_RGB/LED_RGB_1.PNG?raw=true" alt="Test I2C" height="300"/>
+</p>
 
 ---
 
@@ -52,7 +54,7 @@ La cual contiene la clase PWM la cuál nos permite sacar valores analógicos a t
 
 En la función ***main*** creamos el objeto ***pwm*** al cual al inicializarlo se le manda la dirección en donde se encuentra el PWM. En mi caso es la ***0x70*** la cual se obtiene verificando nuestras salidas IC2 el una terminal.
 <p align="center">
-    <img src="https://github.com/gunhack/Raspberry_FezHat/img/general/testI2C.PNG" alt="Test I2C"/></a>
+    <img src="https://github.com/gunhack/Raspberry_FezHat/blob/master/img/general/testI2C.PNG?raw=true" alt="Test I2C" height="400"/>
 </p>
 
 ``` python
