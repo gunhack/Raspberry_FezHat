@@ -202,7 +202,7 @@ De nuevo ejecutamos el comando:
 * Aparecerá la ventana de confirmación
 
 <p align="center">
-   <img src="https://github.com/gunhack/Raspberry_FezHat/blob/master/img/general/testSPI.PNG?raw=true" alt="Configurar SPI" width="600"/>
+   <img src="https://github.com/gunhack/Raspberry_FezHat/blob/master/img/general/SPI_2.PNG?raw=true" alt="Configurar SPI" width="600"/>
 </p>
 
 * Reiniciamos
@@ -216,7 +216,7 @@ Ejecutando el siguiente comando:
 deberías poder ver los dispoitivos SPI
 
 <p align="center">
-   <img src="https://github.com/gunhack/Raspberry_FezHat/blob/master/img/general/TestSPI.PNG?raw=true" alt="Test SPI" width="600"/>
+   <img src="https://github.com/gunhack/Raspberry_FezHat/blob/master/img/general/testSPI.PNG?raw=true" alt="Configurar SPI" width="600"/>
 </p>
 
 ---
