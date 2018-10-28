@@ -75,7 +75,7 @@ Es necesario tener la última versión de [Raspbian](https://www.raspberrypi.org
 
 Una vez teniendo instalado Raspbian es necesario descargar algunas librerías.
 
-Antes de instalar algo, usa el siguiente comando para asegurar que tu distibución esté en su versión actualizada. No importa el directorio donde estés.
+Antes de instalar algo, usa el siguiente comando para asegurar que tu distribución esté en su versión actualizada. No importa el directorio donde estés.
 
     sudo apt-get update
     sudo apt-get upgrade
@@ -86,7 +86,7 @@ Cuando termine tendrás que instalar Git si aun no lo tienes.
 
     sudo apt-get install git
 
-Tambíen hay que comprobar que tenemos intaladas las librerias Rpi.GPIO para eso utilizamos el comando:
+También hay que comprobar que tenemos intaladas las librerías Rpi.GPIO para eso utilizamos el comando:
 
     sudo apt-get install python-rpi.gpio python3-rpi.gpio
 
@@ -123,7 +123,7 @@ hay que agregarle un "3" para instalarlo en la versión 3.x
 
 I2C es un estándar muy comunmente utilizado para permitir la comunicación de un chip a otro. Así que desde que la Raspbrry puede "hablar" I2C, podemos conectar una gran variedad de módulos y chips I2C. 
 
-El bus I2C nos permite conectar múltiples dispositivos a tu Raspberry Pi, con una direccion (registro) unica, que a menudo se puede configurar cambiando la configuración del puente en el módulo. Es muy útil poder ver en que dirección están conectados los dispoositivos en la Raspberry como manera de estar seguro de que está funcionando.
+El bus I2C nos permite conectar múltiples dispositivos a tu Raspberry Pi, con una dirección (registro) única, que a menudo se puede configurar cambiando la configuración del puente en el módulo. Es muy útil poder ver en que dirección están conectados los dispoositivos en la Raspberry como manera de estar seguro de que está funcionando.
 
 Para hacer esto necesitamos ejecutar los siguientes comandos para instalar las herramientas de I2C.
 
@@ -183,4 +183,5 @@ deberías poder ver los dispoitivos SPI
 
 Una vez concuidos todos los pasos anteriores puedes probar las librerías que hice para cada uno de los módulos que tiene la Red Hat.
 
-1) [Leds RGB](https://github.com/gunhack/Raspberry_FezHat/tree/master/LEDS_RGB)
+### 3.1 Básicos
+1) [Leds RGB y PWM](https://github.com/gunhack/Raspberry_FezHat/tree/master/LEDS_RGB)
