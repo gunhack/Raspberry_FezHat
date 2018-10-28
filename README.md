@@ -137,10 +137,25 @@ Ejecuta el siguiente comando y sigue las capturas para instalar el soporte de I2
     sudo raspi-config
 
 * Selecciona **Interfacing Options**
+<p align="center">
+   <img src="https://github.com/gunhack/Raspberry_FezHat/blob/master/img/general/2C_1.PNG" alt="Configurar I2C"/>
+</p>
 
 * Después **I2C**
+<p align="center">
+   <img src="https://github.com/gunhack/Raspberry_FezHat/blob/master/img/general/2C_2.PNG" alt="Configurar I2C"/>
+</p>
 
 * Cuado pregunte que si lo queremos habilitar, seleccionamos **YES**
+<p align="center">
+   <img src="https://github.com/gunhack/Raspberry_FezHat/blob/master/img/general/2C_3.PNG" alt="Configurar I2C"/>
+</p>
+
+* Aparecerá la ventana de confirmación
+
+<p align="center">
+   <img src="https://github.com/gunhack/Raspberry_FezHat/blob/master/img/general/2C_4.PNG" alt="Configurar I2C"/>
+</p>
 
 * Una vez que esté listo, reinicia.
 
