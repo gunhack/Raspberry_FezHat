@@ -52,7 +52,7 @@ import Adafruit_PCA9685 as PWM
 ```
 La cual contiene la clase PWM la cuál nos permite sacar valores analógicos a travez del PWM integrado en la Red Hat.
 
-En la función ***main*** creamos el objeto ***pwm*** al cual al inicializarlo se le manda la dirección en donde se encuentra el PWM. En mi caso es la ***0x70*** la cual se obtiene verificando nuestras salidas IC2 el una terminal.
+En la función ***main*** creamos el objeto ***pwm*** al cual al inicializarlo se le manda la dirección en donde se encuentra el PWM. En mi caso es la ***0x70*** la cual se obtiene verificando nuestras salidas IC2 en una terminal.
 <p align="center">
     <img src="https://github.com/gunhack/Raspberry_FezHat/blob/master/img/general/testI2C.PNG?raw=true" alt="Test I2C" height="400"/>
 </p>
